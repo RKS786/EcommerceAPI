@@ -9,6 +9,6 @@ const router = express.Router();
 const productApi = require('../../../controllers/api/v1/product_api');
 
 router.get('/', productApi.index);
-router.get('/create', productApi.create);
+router.post('/create', productApi.create);
 
 module.exports = router;
