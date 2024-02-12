@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Connect to the MongoDB server
-mongoose.connect("mongodb://127.0.0.1/ecommerce-api");
+mongoose.connect("mongodb+srv://Rahul:R%40nik@cluster0.tbkpwqi.mongodb.net/ecommerce-api?retryWrites=true&w=majority");
 
 // Get the default connection
 const db = mongoose.connection;
